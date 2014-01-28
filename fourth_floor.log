@@ -1,0 +1,1198 @@
++ read position
++ echo 404farcorner
+404farcorner
++ date
+Tue Jan 28 13:31:13 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=3.591 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=5.745 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=6.076 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=4.172 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=9.920 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=4.921 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=5.885 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=4.545 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=4.023 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.224 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.224/5.210/9.920/1.824 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m5.896s
+user	0m0.868s
+sys	0m0.187s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m7.821s
+user	0m1.155s
+sys	0m0.661s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                  uchicago-guest 3c:ce:73:49:52:1c -77  100,+1  Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:1e -76  100,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:49:52:1d -77  100,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:1f -76  100,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -46  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -46  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -46  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -46  64,-1   Y  US NONE
+                         eduroam 08:cc:68:db:ea:1d -81  153,-1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -84  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -81  44,+1   Y  US NONE
+                         eduroam f0:25:72:7d:94:9d -81  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                    cs-techstaff b8:8d:12:61:9f:a6 -81  44,+1   Y  US WPA2(PSK/AES/AES) 
+                 uchicago-secure 24:b6:57:f8:be:71 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest e8:04:62:76:de:93 -89  1       Y  US NONE
+                 uchicago-secure e8:04:62:76:de:91 -88  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 34:bd:c8:db:45:53 -86  1       Y  US NONE
+                         eduroam 34:bd:c8:db:45:52 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 34:bd:c8:db:45:51 -82  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 34:bd:c8:db:45:50 -82  1       Y  US NONE
+                  uchicago-guest 3c:ce:73:49:52:13 -65  11      Y  US NONE
+                         eduroam f0:25:72:7d:94:92 -67  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -67  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -76  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -77  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -76  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -77  11      Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -83  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:3c:10:e3 -84  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:d3 -46  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -46  6       Y  US WPA2(802.1x/AES/AES) 
+                    cs-techstaff b8:8d:12:61:9f:a5 -57  6       Y  US WPA2(PSK/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -45  6       Y  US NONE
+                         eduroam f0:25:72:7d:db:d2 -45  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:e2 -81  6       Y  US WPA2(802.1x/AES/AES) 
++ read position
++ echo 404nearpillar
+404nearpillar
++ date
+Tue Jan 28 13:31:52 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=6.755 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=4.854 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=3.751 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=4.139 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=6.704 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=4.680 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=1.946 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=2.408 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=4.062 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=4.067 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.946/4.337/6.755/1.477 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m5.540s
+user	0m0.866s
+sys	0m0.212s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m6.216s
+user	0m1.116s
+sys	0m0.650s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                  uchicago-guest 3c:ce:73:49:52:13 -65  11      Y  US NONE
+                 uchicago-secure e8:04:62:76:de:91 -88  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest e8:04:62:76:de:93 -89  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:49:52:1c -69  100,+1  Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:1e -68  100,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:49:52:1d -68  100,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:1f -68  100,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -52  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -51  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -52  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -51  64,-1   Y  US NONE
+                        uchicago f0:25:72:3c:10:e0 -82  6       Y  US NONE
+                         eduroam 08:cc:68:db:ea:1d -85  153,-1  Y  US WPA2(802.1x/AES/AES) 
+                    cs-techstaff b8:8d:12:61:9f:a6 -85  44,+1   Y  US WPA2(PSK/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:9c -76  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -76  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -76  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -76  44,+1   Y  US NONE
+                         eduroam f0:25:72:3c:10:e2 -81  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 34:bd:c8:db:45:53 -87  1       Y  US NONE
+                         eduroam 34:bd:c8:db:45:52 -87  1       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 34:bd:c8:db:45:51 -86  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 34:bd:c8:db:45:50 -86  1       Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:93 -58  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -58  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -58  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -58  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -78  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -79  11      Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:e3 -82  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -82  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:d3 -49  6       Y  US NONE
+                    cs-techstaff b8:8d:12:61:9f:a5 -60  6       Y  US WPA2(PSK/AES/AES) 
+                 uchicago-secure f0:25:72:7d:db:d1 -49  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -49  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -49  6       Y  US NONE
++ read position
++ echo 405
+405
++ date
+Tue Jan 28 13:32:37 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=2.125 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=4.306 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=12.643 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=9.751 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=5.373 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=10.849 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=6.436 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.786 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=5.004 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=4.845 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.125/6.512/12.643/3.237 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m5.710s
+user	0m0.897s
+sys	0m0.233s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m10.199s
+user	0m1.262s
+sys	0m0.643s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 uchicago-secure f0:25:72:3c:10:e1 -82  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -79  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -58  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:93 -58  11      Y  US NONE
+                        uchicago f0:25:72:7d:94:9f -76  44,+1   Y  US NONE
+                         eduroam f0:25:72:7d:94:9d -76  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:7d:94:9e -76  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:1d -85  153,-1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -82  6       Y  US NONE
+                         eduroam f0:25:72:3c:10:e2 -85  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:3c:10:e3 -84  6       Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:1e -81  100,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:49:52:1d -81  100,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:1f -81  100,+1  Y  US NONE
+                  uchicago-guest 3c:ce:73:49:52:1c -81  100,+1  Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -48  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -48  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -48  64,-1   Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -48  64,-1   Y  US NONE
+                         eduroam 00:26:99:4f:f1:f2 -89  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 00:26:99:4f:f1:f0 -87  6       Y  US NONE
+                        uchicago 08:cc:68:db:ea:1f -86  153,-1  Y  US NONE
+                  uchicago-guest d8:24:bd:a0:0a:dc -75  149,+1  Y  US NONE
+                 uchicago-secure d8:24:bd:a0:0a:de -76  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam d8:24:bd:a0:0a:dd -76  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago d8:24:bd:a0:0a:df -76  149,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -85  44,+1   Y  US NONE
+                    cs-techstaff b8:8d:12:61:9f:a6 -88  44,+1   Y  US WPA2(PSK/AES/AES) 
+                  uchicago-guest 34:bd:c8:db:45:53 -69  1       Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:73 -80  1       Y  US NONE
+                 uchicago-secure 34:bd:c8:db:45:51 -75  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 34:bd:c8:db:45:52 -70  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 34:bd:c8:db:45:50 -77  1       Y  US NONE
+                         eduroam 24:b6:57:f8:be:72 -81  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -82  1       Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -75  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -75  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -74  11      Y  US NONE
+                         eduroam f0:25:72:7d:94:92 -74  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:49:52:13 -71  11      Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:11 -70  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -75  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:49:52:12 -68  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:10 -70  11      Y  US NONE
+                  uchicago-guest 00:26:99:4f:f1:f3 -87  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:d3 -50  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -50  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -50  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -49  6       Y  US NONE
+                    cs-techstaff b8:8d:12:61:9f:a5 -69  6       Y  US WPA2(PSK/AES/AES) 
++ read position
++ echo 403middle
+403middle
++ date
+Tue Jan 28 13:33:55 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=2.565 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=1.703 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=6.728 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=2.162 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=2.247 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=2.150 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=1.906 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=2.479 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=4.236 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=24.999 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.703/5.117/24.999/6.781 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m6.341s
+user	0m0.884s
+sys	0m0.192s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m10.451s
+user	0m1.232s
+sys	0m0.760s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        uchicago b8:62:1f:41:8e:e0 -87  6       Y  US NONE
+                        uchicago 3c:ce:73:49:52:1f -84  100,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -57  64,-1   Y  US NONE
+                         eduroam f0:25:72:7d:db:dd -57  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -57  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -57  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:e2 -82  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 00:26:99:4f:f1:f0 -84  6       Y  US NONE
+                 uchicago-secure b8:62:1f:41:8e:e1 -86  6       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 00:26:99:4f:f1:f1 -85  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -82  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:d3 -58  6       Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:e3 -82  6       Y  US NONE
+                  uchicago-guest 00:26:99:4f:f1:f3 -87  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -59  6       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:3c:10:e1 -81  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:41:8e:e2 -87  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:9c -70  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -70  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -70  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -70  44,+1   Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:7c -83  36,+1   Y  US NONE
+                         eduroam 24:b6:57:f8:be:7d -84  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:7f -84  36,+1   Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:7e -84  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 00:26:99:4f:f1:f2 -84  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -58  6       Y  US NONE
+                         eduroam 34:bd:c8:db:45:52 -85  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 24:b6:57:f8:be:73 -65  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -64  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -64  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -64  1       Y  US NONE
+                         eduroam 3c:ce:73:49:52:12 -72  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:49:52:13 -72  11      Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:11 -72  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:93 -56  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -56  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -56  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -56  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -78  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -78  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -78  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -78  11      Y  US NONE
+                        uchicago 3c:ce:73:49:52:10 -71  11      Y  US NONE
+                            cpde 00:16:b6:dc:dc:d4 -84  9       N  -- WPA(PSK/TKIP/TKIP) 
+                         eduroam f0:25:72:7d:db:d2 -59  6       Y  US WPA2(802.1x/AES/AES) 
+                    cs-techstaff b8:8d:12:61:9f:a5 -71  6       Y  US WPA2(PSK/AES/AES) 
++ read position
++ echo 403box10
+403box10
++ date
+Tue Jan 28 13:35:01 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=1.193 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=1.352 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=2.290 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=1.770 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=2.147 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=1.899 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=1.451 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=1.708 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=4.802 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=1.880 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.193/2.049/4.802/0.973 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m6.943s
+user	0m0.872s
+sys	0m0.276s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m13.360s
+user	0m1.344s
+sys	0m0.892s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 uchicago-secure f0:25:72:7d:db:de -66  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -66  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -65  64,-1   Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -65  64,-1   Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:e3 -78  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -74  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -74  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -74  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -74  44,+1   Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:7c -84  36,+1   Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:7e -84  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:7d -84  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:7f -84  36,+1   Y  US NONE
+                        uchicago f0:25:72:3c:10:e0 -77  6       Y  US NONE
+                        uchicago b8:62:1f:7c:97:50 -83  1       Y  US NONE
+                  uchicago-guest b8:62:1f:7c:97:53 -83  1       Y  US NONE
+                 uchicago-secure b8:62:1f:7c:97:51 -84  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:7c:97:52 -84  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 24:b6:57:f8:be:73 -63  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -63  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -63  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -63  1       Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -58  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -57  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -57  11      Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:93 -57  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -79  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -80  11      Y  US NONE
+                  uchicago-guest 3c:ce:73:49:52:13 -69  11      Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:11 -69  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:49:52:12 -69  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:10 -69  11      Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -77  6       Y  US WPA2(802.1x/AES/AES) 
+                        Ry167Lab f8:7b:8c:05:3d:0d -87  10,-1   Y  -- WPA(PSK/AES/AES) 
+                            cpde 00:16:b6:dc:dc:d4 -85  9       N  -- WPA(PSK/TKIP/TKIP) 
+                         eduroam f0:25:72:3c:10:e2 -78  6       Y  US WPA2(802.1x/AES/AES) 
+                    cs-techstaff b8:8d:12:61:9f:a5 -83  6       Y  US WPA2(PSK/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:d3 -68  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -68  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -68  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -68  6       Y  US NONE
++ read position
++ echo 403box13
+403box13
++ date
+Tue Jan 28 13:35:50 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=116.466 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=37.024 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=101.875 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=7.469 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=2.383 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=1.597 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=2.442 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=6.005 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=2.303 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=4.177 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.597/28.174/116.466/41.839 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m11.953s
+user	0m0.955s
+sys	0m0.324s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m15.017s
+user	0m1.310s
+sys	0m0.900s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                            cpde 00:16:b6:dc:dc:d4 -85  9       N  -- WPA(PSK/TKIP/TKIP) 
+                        Ry167Lab f8:7b:8c:05:3d:0d -87  10,-1   Y  -- WPA(PSK/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -80  11      Y  US NONE
+                         eduroam b8:62:1f:41:8e:e2 -88  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:dc -68  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -68  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -68  64,-1   Y  US NONE
+                         eduroam f0:25:72:7d:db:dd -68  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure b8:62:1f:41:8e:e1 -89  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:9c -72  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -72  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -72  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -72  44,+1   Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:7c -83  36,+1   Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:7e -84  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:7d -84  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:7f -84  36,+1   Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:e3 -84  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -83  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 24:b6:57:f8:be:73 -70  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -69  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -69  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -70  1       Y  US NONE
+                  uchicago-guest b8:62:1f:7c:97:53 -82  1       Y  US NONE
+                 uchicago-secure b8:62:1f:7c:97:51 -82  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:7c:97:52 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago b8:62:1f:7c:97:50 -82  1       Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:93 -66  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -62  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -62  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -61  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -84  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -84  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -84  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:49:52:13 -71  11      Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:11 -72  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:49:52:12 -72  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:10 -73  11      Y  US NONE
+                        uchicago f0:25:72:3c:10:e0 -84  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:d3 -66  6       Y  US NONE
+                         eduroam f0:25:72:3c:10:e2 -84  6       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:7d:db:d1 -66  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -64  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -65  6       Y  US NONE
+                    cs-techstaff b8:8d:12:61:9f:a5 -82  6       Y  US WPA2(PSK/AES/AES) 
++ read position
++ echo 403box18
+403box18
++ date
+Tue Jan 28 13:36:47 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=4.252 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=3.980 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=1.780 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=1.766 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=5.354 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=24.056 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=3.030 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.016 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=3.311 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=7.920 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.766/5.847/24.056/6.306 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m12.738s
+user	0m0.974s
+sys	0m0.328s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m13.737s
+user	0m1.286s
+sys	0m0.932s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        uchicago 3c:ce:73:49:52:10 -73  11      Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:11 -72  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:7f -84  36,+1   Y  US NONE
+                         eduroam 24:b6:57:f8:be:7d -84  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 24:b6:57:f8:be:7c -83  36,+1   Y  US NONE
+                 uchicago-secure b8:62:1f:41:8e:e1 -88  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:41:8e:e2 -88  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:dc -67  64,-1   Y  US NONE
+                         eduroam f0:25:72:7d:db:dd -67  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -68  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -67  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:9c -81  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -81  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -81  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -81  44,+1   Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:7e -87  36,+1   Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest b8:62:1f:7c:97:53 -78  1       Y  US NONE
+                 uchicago-secure b8:62:1f:7c:97:51 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:7c:97:52 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago b8:62:1f:7c:97:50 -79  1       Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:73 -68  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -69  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -68  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -68  1       Y  US NONE
+                         eduroam 3c:ce:73:49:52:12 -78  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -78  11      Y  US NONE
+                  uchicago-guest 3c:ce:73:49:52:13 -79  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -75  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:93 -70  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -69  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -69  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -69  11      Y  US NONE
+                    cs-techstaff b8:8d:12:61:9f:a5 -75  6       Y  US WPA2(PSK/AES/AES) 
+                  uchicago-guest f0:25:72:3c:10:e3 -84  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -84  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:e2 -83  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -83  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:d3 -69  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -68  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -69  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -68  6       Y  US NONE
++ read position
++ echo 403box6
+403box6
++ date
+Tue Jan 28 13:38:05 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=2.131 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=4.351 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=4.365 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=2.352 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=1.725 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=1.790 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=6.638 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=1.754 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=2.250 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=2.611 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.725/2.997/6.638/1.531 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
++ read position
++ echo 403box6
+403box6
++ date
+Tue Jan 28 13:38:51 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=2.281 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=2.614 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=1.767 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=4.464 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=4.624 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=1.783 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=1.289 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=0.929 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=2.159 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.630 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.929/2.554/4.624/1.216 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m9.145s
+user	0m0.910s
+sys	0m0.292s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m11.120s
+user	0m1.073s
+sys	0m0.524s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 uchicago-secure f0:25:72:3c:10:e1 -76  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:dc -70  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -70  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -70  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -70  64,-1   Y  US NONE
+                  uchicago-guest 3c:ce:73:49:52:13 -75  11      Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -73  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -73  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -73  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -73  44,+1   Y  US NONE
+                        uchicago 24:b6:57:f8:be:7f -87  36,+1   Y  US NONE
+                        uchicago 08:cc:68:db:ea:10 -77  11      Y  US NONE
+                            cpde 00:16:b6:dc:dc:d4 -87  9       N  -- WPA(PSK/TKIP/TKIP) 
+                    cs-techstaff b8:8d:12:61:9f:a5 -71  6       Y  US WPA2(PSK/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:d3 -68  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -69  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -69  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -70  6       Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:11 -75  11      Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 08:cc:68:db:ea:11 -75  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:57:1c:70 -82  1       Y  US NONE
+                  uchicago-guest b8:62:1f:7c:97:53 -83  1       Y  US NONE
+                 uchicago-secure b8:62:1f:7c:97:51 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:7c:97:52 -84  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 24:b6:57:f8:be:73 -70  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -70  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -70  1       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 3c:ce:73:57:1c:71 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -70  1       Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -83  11      Y  US NONE
+                         eduroam 08:cc:68:db:ea:12 -76  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:93 -62  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -62  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -62  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -62  11      Y  US NONE
+                         eduroam 3c:ce:73:49:52:12 -75  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:10 -72  11      Y  US NONE
++ read position
++ echo 402box1
+402box1
++ date
+Tue Jan 28 13:39:52 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+ping: cannot resolve linux2.cs.uchicago.edu: Unknown host
++ read position
++ echo 402box1
+402box1
++ date
+Tue Jan 28 13:40:02 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=0.986 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=3.569 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=1.426 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=3.711 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=1.384 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=3.507 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=3.711 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.816 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=3.501 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.707 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.986/2.932/3.816/1.100 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m5.554s
+user	0m0.907s
+sys	0m0.267s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m4.510s
+user	0m0.909s
+sys	0m0.344s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                 uchicago-secure 3c:ce:73:57:1c:71 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:7c:97:52 -84  1       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure b8:62:1f:7c:97:51 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest b8:62:1f:7c:97:53 -83  1       Y  US NONE
+                        uchicago 3c:ce:73:57:1c:70 -82  1       Y  US NONE
+                    cs-techstaff b8:8d:12:61:9f:a5 -71  6       Y  US WPA2(PSK/AES/AES) 
+                        uchicago 24:b6:57:f8:be:7f -87  36,+1   Y  US NONE
+                  uchicago-guest 3c:ce:73:49:52:13 -75  11      Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:ee -83  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:7d:db:de -80  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -79  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -80  64,-1   Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -80  64,-1   Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -81  11      Y  US NONE
+                         eduroam 08:cc:68:db:ea:12 -82  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -83  11      Y  US NONE
+                        uchicago 3c:ce:73:49:52:10 -83  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -81  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:93 -51  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -51  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -50  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -50  11      Y  US NONE
+                 uchicago-secure 3c:ce:73:49:52:11 -82  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:49:52:12 -80  11      Y  US WPA2(802.1x/AES/AES) 
+                        Ry167Lab f8:7b:8c:05:3d:0d -83  10,-1   Y  -- WPA(PSK/AES/AES) 
+                            cpde 00:16:b6:dc:dc:d4 -81  9       N  -- WPA(PSK/TKIP/TKIP) 
+                         eduroam f0:25:72:7d:db:d2 -75  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -75  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -75  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:3c:10:e3 -69  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -68  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:e2 -69  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -68  6       Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:d3 -74  6       Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:73 -73  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -73  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -73  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -73  1       Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -59  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -59  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -59  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -59  44,+1   Y  US NONE
++ read position
++ echo 402box7
+402box7
++ date
+Tue Jan 28 13:40:42 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=1.089 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=3.618 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=3.625 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=1.435 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=4.022 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=4.661 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=3.719 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.745 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=1.333 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.642 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.089/3.089/4.661/1.219 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m4.653s
+user	0m0.905s
+sys	0m0.283s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m4.514s
+user	0m0.911s
+sys	0m0.340s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                  uchicago-guest f0:25:72:7d:db:d3 -74  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -75  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -75  6       Y  US NONE
+                         eduroam f0:25:72:7d:db:d2 -75  6       Y  US WPA2(802.1x/AES/AES) 
+                        Ry167Lab f8:7b:8c:05:3d:0d -83  10,-1   Y  -- WPA(PSK/AES/AES) 
+                         eduroam 3c:ce:73:49:52:12 -80  11      Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 3c:ce:73:49:52:11 -82  11      Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 08:cc:68:db:ea:11 -81  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:10 -83  11      Y  US NONE
+                         eduroam 08:cc:68:db:ea:12 -82  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:dc -85  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -86  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -85  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -85  64,-1   Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:93 -50  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -50  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 00:19:a9:41:cb:a3 -82  11      N  US NONE
+                         eduroam f0:25:72:7d:94:92 -51  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -50  11      Y  US NONE
+                        uchicago 08:cc:68:db:ea:10 -69  11      Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -68  11      Y  US NONE
+                            cpde 00:16:b6:dc:dc:d4 -74  9       N  -- WPA(PSK/TKIP/TKIP) 
+                         eduroam f0:25:72:3c:10:e2 -66  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -66  6       Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:e3 -67  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -66  6       Y  US WPA2(802.1x/AES/AES) 
+                    cs-techstaff b8:8d:12:61:9f:a5 -87  6       Y  US WPA2(PSK/AES/AES) 
+                  uchicago-guest e8:ed:f3:cd:29:e3 -90  1       Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:73 -79  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -77  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -77  1       Y  US NONE
+                         eduroam 24:b6:57:f8:be:72 -77  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:1f -85  153,-1  Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:ec -86  149,+1  Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:ee -87  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:ed -85  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:ef -86  149,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -50  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -50  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -50  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -51  44,+1   Y  US NONE
++ read position
++ echo 402box9
+402box9
++ date
+Tue Jan 28 13:41:22 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+Request timeout for icmp_seq 2
+Request timeout for icmp_seq 3
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=6.432 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=4.118 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=3.788 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.701 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=3.830 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.452 ms
++ read position
++ echo 402box9
+402box9
++ date
+Tue Jan 28 13:41:39 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=3.583 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=1.397 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=3.772 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=3.677 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=3.770 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=3.745 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=1.512 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.852 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=3.724 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.835 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.397/3.287/3.852/0.919 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m4.565s
+user	0m0.905s
+sys	0m0.291s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m4.504s
+user	0m0.904s
+sys	0m0.342s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        uchicago 08:cc:68:db:ea:1f -85  153,-1  Y  US NONE
+                        uchicago 24:b6:57:f8:be:70 -77  1       Y  US NONE
+                  uchicago-guest e8:ed:f3:cd:29:e3 -90  1       Y  US NONE
+                    cs-techstaff b8:8d:12:61:9f:a5 -87  6       Y  US WPA2(PSK/AES/AES) 
+                  uchicago-guest 08:cc:68:db:ea:13 -68  11      Y  US NONE
+                  uchicago-guest 00:19:a9:41:cb:a3 -82  11      N  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -83  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -83  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -82  64,-1   Y  US NONE
+                         eduroam f0:25:72:7d:db:dd -83  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -78  11      Y  US NONE
+                         eduroam f0:25:72:7d:94:92 -29  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:49:52:13 -87  11      Y  US NONE
+                        uchicago f0:25:72:7d:94:90 -30  11      Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:93 -29  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -30  11      Y  US WPA2(802.1x/AES/AES) 
+                        Ry167Lab f8:7b:8c:05:3d:0d -80  10,-1   Y  -- WPA(PSK/AES/AES) 
+                            cpde 00:16:b6:dc:dc:d4 -62  9       N  -- WPA(PSK/TKIP/TKIP) 
+                  uchicago-guest f0:25:72:7d:db:d3 -74  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -75  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -75  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -74  6       Y  US NONE
+                  uchicago-guest b8:62:1f:41:8e:e3 -88  6       Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:e3 -61  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -61  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:e2 -61  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -61  6       Y  US NONE
+                        uchicago 3c:ce:73:57:1c:70 -75  1       Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:73 -76  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -76  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:57:1c:73 -75  1       Y  US NONE
+                 uchicago-secure 3c:ce:73:57:1c:71 -75  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:57:1c:72 -75  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -75  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:3c:10:ec -79  149,+1  Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:ee -79  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:ed -78  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:ef -79  149,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -49  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -49  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -49  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -49  44,+1   Y  US NONE
++ read position
++ echo 402box15
+402box15
++ date
+Tue Jan 28 13:42:15 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=3.473 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=4.247 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=3.027 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=3.737 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=3.663 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=3.787 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=3.696 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.623 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=3.746 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=5.835 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.027/3.883/5.835/0.710 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m4.764s
+user	0m0.904s
+sys	0m0.259s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m4.651s
+user	0m0.924s
+sys	0m0.366s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                  uchicago-guest f0:25:72:3c:10:e3 -61  6       Y  US NONE
+                  uchicago-guest b8:62:1f:41:8e:e3 -88  6       Y  US NONE
+                         eduroam f0:25:72:7d:db:d2 -75  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:d3 -74  6       Y  US NONE
+                        Ry167Lab f8:7b:8c:05:3d:0d -80  10,-1   Y  -- WPA(PSK/AES/AES) 
+                  uchicago-guest 3c:ce:73:49:52:13 -87  11      Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -82  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -82  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -84  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -83  64,-1   Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -80  11      Y  US NONE
+                        uchicago f0:25:72:7d:94:90 -45  11      Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:93 -43  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -44  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -45  11      Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 08:cc:68:db:ea:11 -78  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:10 -84  11      Y  US NONE
+                         eduroam 08:cc:68:db:ea:12 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -77  11      Y  US NONE
+                            cpde 00:16:b6:dc:dc:d4 -80  9       N  -- WPA(PSK/TKIP/TKIP) 
+                         eduroam f0:25:72:3c:10:e2 -72  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -74  6       Y  US NONE
+                        uchicago f0:25:72:3c:10:e0 -73  6       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -74  6       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:3c:10:e1 -73  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 44:ad:d9:a1:51:b0 -85  1       Y  US NONE
+                  uchicago-guest 3c:ce:73:57:1c:73 -81  1       Y  US NONE
+                  uchicago-guest 24:b6:57:f8:be:73 -77  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -76  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -77  1       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 3c:ce:73:57:1c:71 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 3c:ce:73:57:1c:72 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 24:b6:57:f8:be:70 -79  1       Y  US NONE
+                        uchicago 3c:ce:73:57:1c:70 -79  1       Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:ec -84  149,+1  Y  US NONE
+                         eduroam f0:25:72:3c:10:ed -84  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:ef -85  149,+1  Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:ee -85  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:9c -68  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -68  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -68  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -68  44,+1   Y  US NONE
++ read position
++ echo outside401
+outside401
++ date
+Tue Jan 28 13:43:15 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=3.503 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=3.709 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=3.715 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=3.713 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=4.267 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=3.687 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=3.603 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.773 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=3.727 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.676 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.503/3.737/4.267/0.191 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m4.552s
+user	0m0.906s
+sys	0m0.278s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m4.451s
+user	0m0.894s
+sys	0m0.325s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                         eduroam 3c:ce:73:57:1c:72 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 44:ad:d9:a1:51:b0 -85  1       Y  US NONE
+                        uchicago f0:25:72:7d:db:d0 -74  6       Y  US NONE
+                         eduroam 08:cc:68:db:ea:12 -79  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:49:52:10 -84  11      Y  US NONE
+                  uchicago-guest f0:25:72:7d:db:dc -83  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:de -84  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:dd -84  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:df -84  64,-1   Y  US NONE
+                  uchicago-guest 08:cc:68:db:ea:13 -82  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -82  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:93 -41  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -42  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:92 -42  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -83  11      Y  US NONE
+                        uchicago f0:25:72:7d:94:90 -42  11      Y  US NONE
+                            cpde 00:16:b6:dc:dc:d4 -80  9       N  -- WPA(PSK/TKIP/TKIP) 
+                  uchicago-guest f0:25:72:7d:db:d3 -77  6       Y  US NONE
+                         eduroam f0:25:72:7d:db:d2 -77  6       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:7d:db:d1 -77  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:e2 -57  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -57  6       Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:e3 -57  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -57  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:57:1c:73 -83  1       Y  US NONE
+                 uchicago-secure 3c:ce:73:57:1c:71 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 24:b6:57:f8:be:73 -79  1       Y  US NONE
+                 uchicago-secure 24:b6:57:f8:be:71 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 24:b6:57:f8:be:72 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 3c:ce:73:57:1c:70 -82  1       Y  US NONE
+                        uchicago 24:b6:57:f8:be:70 -79  1       Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:ec -73  149,+1  Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:ee -73  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:ed -72  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:ef -73  149,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -53  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -53  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -54  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -53  44,+1   Y  US NONE
++ read position
++ echo 401rightside
+401rightside
++ date
+Tue Jan 28 13:44:10 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=1.129 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=5.578 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=3.393 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=1.390 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=3.838 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=4.331 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=3.652 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=4.109 ms
+Request timeout for icmp_seq 8
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.756 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 9 packets received, 10.0% packet loss
+round-trip min/avg/max/stddev = 1.129/3.464/5.578/1.319 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m4.735s
+user	0m0.863s
+sys	0m0.199s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m5.668s
+user	0m1.128s
+sys	0m0.755s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        uchicago 24:b6:57:f8:be:70 -79  1       Y  US NONE
+                        uchicago 3c:ce:73:57:1c:70 -82  1       Y  US NONE
+                         eduroam 24:b6:57:f8:be:72 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 24:b6:57:f8:be:71 -79  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 24:b6:57:f8:be:73 -79  1       Y  US NONE
+                 uchicago-secure 3c:ce:73:57:1c:71 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 3c:ce:73:57:1c:73 -83  1       Y  US NONE
+                 uchicago-secure f0:25:72:7d:db:d1 -77  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:db:d2 -77  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:d3 -77  6       Y  US NONE
+                        uchicago f0:25:72:7d:94:90 -42  11      Y  US NONE
+                         eduroam f0:25:72:7d:94:92 -42  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:94:93 -41  11      Y  US NONE
+                        uchicago f0:25:72:7d:db:df -84  64,-1   Y  US NONE
+                         eduroam f0:25:72:7d:db:dd -84  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:7d:db:de -84  64,-1   Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:7d:db:dc -83  64,-1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -56  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 08:cc:68:db:ea:13 -74  11      Y  US NONE
+                 uchicago-secure 08:cc:68:db:ea:11 -71  11      Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 08:cc:68:db:ea:12 -74  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:10 -71  11      Y  US NONE
+                            cpde 00:16:b6:dc:dc:d4 -71  9       N  -- WPA(PSK/TKIP/TKIP) 
+                  uchicago-guest c4:0a:cb:df:48:b3 -87  6       Y  US NONE
+                 uchicago-secure c4:0a:cb:df:48:b1 -87  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam c4:0a:cb:df:48:b2 -86  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago c4:0a:cb:df:48:b0 -88  6       Y  US NONE
+                  uchicago-guest b8:62:1f:41:8e:e3 -81  6       Y  US NONE
+                 uchicago-secure b8:62:1f:41:8e:e1 -83  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:41:8e:e2 -84  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:3c:10:e3 -59  6       Y  US NONE
+                        uchicago b8:62:1f:41:8e:e0 -84  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -59  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:e2 -59  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -59  6       Y  US NONE
+                 uchicago-secure 0c:27:24:92:63:a1 -83  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 08:cc:68:db:ea:1f -87  153,-1  Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:ec -76  149,+1  Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:ee -76  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:ed -76  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:ef -76  149,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -72  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -72  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -72  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -72  44,+1   Y  US NONE
++ read position
++ echo 401leftside
+401leftside
++ date
+Tue Jan 28 13:44:46 CST 2014
++ ping -c 10 linux2.cs.uchicago.edu
+PING linux2.cs.uchicago.edu (128.135.164.172): 56 data bytes
+64 bytes from 128.135.164.172: icmp_seq=0 ttl=62 time=1.807 ms
+64 bytes from 128.135.164.172: icmp_seq=1 ttl=62 time=3.928 ms
+64 bytes from 128.135.164.172: icmp_seq=2 ttl=62 time=3.433 ms
+64 bytes from 128.135.164.172: icmp_seq=3 ttl=62 time=5.443 ms
+64 bytes from 128.135.164.172: icmp_seq=4 ttl=62 time=3.433 ms
+64 bytes from 128.135.164.172: icmp_seq=5 ttl=62 time=3.516 ms
+64 bytes from 128.135.164.172: icmp_seq=6 ttl=62 time=4.385 ms
+64 bytes from 128.135.164.172: icmp_seq=7 ttl=62 time=3.369 ms
+64 bytes from 128.135.164.172: icmp_seq=8 ttl=62 time=3.876 ms
+64 bytes from 128.135.164.172: icmp_seq=9 ttl=62 time=3.793 ms
+
+--- linux2.cs.uchicago.edu ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 1.807/3.698/5.443/0.864 ms
++ scp randomblob jarcher@linux2.cs.uchicago.edu:/tmp/largefile
+
+real	0m4.707s
+user	0m0.876s
+sys	0m0.206s
++ scp jarcher@linux2.cs.uchicago.edu:/tmp/largefile download
+
+real	0m5.345s
+user	0m1.010s
+sys	0m0.482s
+++ uname
++ [[ xDarwin == \x\D\a\r\w\i\n ]]
++ /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                        uchicago 08:cc:68:db:ea:1f -87  153,-1  Y  US NONE
+                        uchicago b8:62:1f:41:8e:e0 -84  6       Y  US NONE
+                  uchicago-guest b8:62:1f:41:8e:e3 -81  6       Y  US NONE
+                        uchicago c4:0a:cb:df:48:b0 -88  6       Y  US NONE
+                         eduroam c4:0a:cb:df:48:b2 -86  6       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure c4:0a:cb:df:48:b1 -87  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest c4:0a:cb:df:48:b3 -87  6       Y  US NONE
+                        uchicago 08:cc:68:db:ea:10 -71  11      Y  US NONE
+                         eduroam 08:cc:68:db:ea:12 -74  11      Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure 08:cc:68:db:ea:11 -71  11      Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest 08:cc:68:db:ea:13 -74  11      Y  US NONE
+                         eduroam f0:25:72:7d:94:92 -53  11      Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:90 -53  11      Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:93 -52  11      Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:91 -52  11      Y  US WPA2(802.1x/AES/AES) 
+                            cpde 00:16:b6:dc:dc:d4 -69  9       N  -- WPA(PSK/TKIP/TKIP) 
+                 uchicago-secure b8:62:1f:41:8e:e1 -84  6       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam b8:62:1f:41:8e:e2 -80  6       Y  US WPA2(802.1x/AES/AES) 
+                 uchicago-secure f0:25:72:7d:db:d1 -83  6       Y  US WPA2(802.1x/AES/AES) 
+                  uchicago-guest f0:25:72:3c:10:e3 -56  6       Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:e1 -56  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:db:d0 -82  6       Y  US NONE
+                         eduroam f0:25:72:3c:10:e2 -56  6       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:e0 -56  6       Y  US NONE
+                  uchicago-guest 0c:27:24:92:63:a3 -84  1       Y  US NONE
+                 uchicago-secure 0c:27:24:92:63:a1 -84  1       Y  US WPA2(802.1x/AES/AES) 
+                         eduroam 0c:27:24:92:63:a2 -84  1       Y  US WPA2(802.1x/AES/AES) 
+                        uchicago 0c:27:24:92:63:a0 -83  1       Y  US NONE
+                  uchicago-guest f0:25:72:3c:10:ec -77  149,+1  Y  US NONE
+                 uchicago-secure f0:25:72:3c:10:ee -77  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:3c:10:ed -77  149,+1  Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:3c:10:ef -77  149,+1  Y  US NONE
+                  uchicago-guest f0:25:72:7d:94:9c -75  44,+1   Y  US NONE
+                 uchicago-secure f0:25:72:7d:94:9e -74  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                         eduroam f0:25:72:7d:94:9d -74  44,+1   Y  US WPA2(802.1x/AES/AES) 
+                        uchicago f0:25:72:7d:94:9f -74  44,+1   Y  US NONE
++ read position
