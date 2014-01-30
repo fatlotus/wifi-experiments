@@ -10,13 +10,15 @@
 #   This will collect data for 24 hours.
 #
 
-for i in (1..1440); do
+while [ true ]; do
    date
    
-   ping -c 10 linux1.cs.uchicago.edu
+   ping -c 10 linux2.cs.uchicago.edu
    
-   time scp randomblob jarcher@linux1.cs.uchicago.edu:/tmp/largefile
-   time scp jarcher@linux1.cs.uchicago.edu:/tmp/largefile download
-   
-   sleep 60
+   time scp randomblob linux2.cs.uchicago.edu:/tmp/largefile$USER
+   time scp linux2.cs.uchicago.edu:/tmp/largefile$USER download
+
+   time wget -O - http://www.cvg.ethz.ch/research/mountain-localization/mountain-localization.tgz > /dev/null
+   time wget -O - https://dev.qu.tu-berlin.de/attachments/download/1287/SoundScapeRenderer-0.3.4-MacOSX-10.6-10.7-64bit.dmg > /dev/null
+   sleep 30
 done
