@@ -1,5 +1,6 @@
 - mac: f0:25:72:7d:94:91
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-30", "location": "402box9", "floor": "fourth"}
    - {"strength": "-42", "location": "401rightside", "floor": "fourth"}
@@ -32,6 +33,7 @@
 
 - mac: 00:1e:f7:75:91:82
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-47", "location": "177farcorner", "floor": "first"}
    - {"strength": "-54", "location": "175farwall", "floor": "first"}
@@ -42,6 +44,7 @@
 
 - mac: 00:26:cb:42:b9:51
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-77", "location": "center", "floor": "first"}
    - {"strength": "-79", "location": "257h", "floor": "second"}
@@ -52,11 +55,13 @@
 
 - mac: 3c:ce:73:57:08:21
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-88", "location": "257h", "floor": "second"}
 
 - mac: 08:cc:68:db:ea:11
   network: uchicago-secure
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-71", "location": "401rightside", "floor": "fourth"}
    - {"strength": "-74", "location": "401rightside", "floor": "fourth"}
@@ -87,6 +92,7 @@
 
 - mac: 08:cc:68:db:ea:12
   network: eduroam
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-75", "location": "405", "floor": "fourth"}
    - {"strength": "-76", "location": "403box6", "floor": "fourth"}
@@ -113,6 +119,7 @@
 
 - mac: 00:1e:f7:75:91:81
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-48", "location": "177farcorner", "floor": "first"}
    - {"strength": "-52", "location": "175farwall", "floor": "first"}
@@ -123,6 +130,7 @@
 
 - mac: f0:25:72:3c:10:ee
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-55", "location": "outside257f", "floor": "second"}
    - {"strength": "-56", "location": "257h", "floor": "second"}
@@ -154,6 +162,7 @@
 
 - mac: f0:25:72:3c:10:ed
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-55", "location": "outside257f", "floor": "second"}
    - {"strength": "-56", "location": "257h", "floor": "second"}
@@ -178,6 +187,7 @@
 
 - mac: 34:bd:c8:db:45:52
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-68", "location": "152b", "floor": "first"}
    - {"strength": "-70", "location": "405", "floor": "fourth"}
@@ -202,6 +212,7 @@
 
 - mac: 3c:ce:73:49:52:1d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-55", "location": "157", "floor": "first"}
    - {"strength": "-63", "location": "254", "floor": "second"}
@@ -222,6 +233,7 @@
 
 - mac: 3c:ce:73:49:52:1e
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-55", "location": "157", "floor": "first"}
    - {"strength": "-63", "location": "254", "floor": "second"}
@@ -246,6 +258,7 @@
 
 - mac: b8:62:1f:41:8e:e2
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-79", "location": "161b", "floor": "first"}
    - {"strength": "-86", "location": "outside360b", "floor": "third"}
@@ -256,6 +269,7 @@
 
 - mac: b8:62:1f:41:8e:e1
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-83", "location": "401rightside", "floor": "fourth"}
    - {"strength": "-86", "location": "403middle", "floor": "fourth"}
@@ -266,12 +280,14 @@
 
 - mac: 00:26:99:4f:f1:f1
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-79", "location": "401rightside", "floor": "fourth"}
    - {"strength": "-85", "location": "403middle", "floor": "fourth"}
 
 - mac: 24:b6:57:f8:be:72
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-45", "location": "center", "floor": "second"}
    - {"strength": "-46", "location": "255", "floor": "second"}
@@ -312,6 +328,7 @@
 
 - mac: 24:b6:57:f8:be:71
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-45", "location": "center", "floor": "second"}
    - {"strength": "-46", "location": "255", "floor": "second"}
@@ -357,6 +374,7 @@
 
 - mac: f0:25:72:7d:db:dd
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-46", "location": "404farcorner", "floor": "fourth"}
    - {"strength": "-48", "location": "405", "floor": "fourth"}
@@ -378,12 +396,14 @@
 
 - mac: 00:26:99:4f:f1:f2
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-84", "location": "403middle", "floor": "fourth"}
    - {"strength": "-89", "location": "405", "floor": "fourth"}
 
 - mac: f0:25:72:7d:db:de
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-46", "location": "404farcorner", "floor": "fourth"}
    - {"strength": "-48", "location": "405", "floor": "fourth"}
@@ -404,11 +424,13 @@
 
 - mac: e8:ed:f3:cd:29:e1
   network: uchicago-secure
+  manufacturer: "UNKNOWN"
   measurements:
    - {"strength": "-84", "location": "outside355a", "floor": "third"}
 
 - mac: d8:24:bd:a0:0a:de
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-55", "location": "152b", "floor": "first"}
    - {"strength": "-56", "location": "outside251", "floor": "second"}
@@ -426,6 +448,7 @@
 
 - mac: d8:24:bd:a0:0a:dd
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-55", "location": "152b", "floor": "first"}
    - {"strength": "-57", "location": "155", "floor": "first"}
@@ -441,6 +464,7 @@
 
 - mac: 3c:ce:73:57:1c:7d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-64", "location": "outside257c", "floor": "second"}
    - {"strength": "-64", "location": "outside259", "floor": "second"}
@@ -458,6 +482,7 @@
 
 - mac: 3c:ce:73:57:1c:7e
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-64", "location": "outside257c", "floor": "second"}
    - {"strength": "-64", "location": "outside259", "floor": "second"}
@@ -474,6 +499,7 @@
 
 - mac: 00:26:cb:42:b9:52
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-76", "location": "165", "floor": "first"}
    - {"strength": "-79", "location": "center", "floor": "first"}
@@ -486,6 +512,7 @@
 
 - mac: b8:62:1f:7c:97:52
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-58", "location": "outside175", "floor": "first"}
    - {"strength": "-69", "location": "175farwall", "floor": "first"}
@@ -510,6 +537,7 @@
 
 - mac: b8:62:1f:7c:97:51
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-58", "location": "outside175", "floor": "first"}
    - {"strength": "-66", "location": "center", "floor": "second"}
@@ -539,6 +567,7 @@
 
 - mac: 3c:ce:73:49:52:11
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-48", "location": "254", "floor": "second"}
    - {"strength": "-51", "location": "157", "floor": "first"}
@@ -574,6 +603,7 @@
 
 - mac: 0c:27:24:92:63:a1
   network: eduroam
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-76", "location": "165", "floor": "first"}
    - {"strength": "-83", "location": "401rightside", "floor": "fourth"}
@@ -581,6 +611,7 @@
 
 - mac: 00:26:99:50:8e:3d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-55", "location": "155", "floor": "first"}
    - {"strength": "-64", "location": "outside251", "floor": "second"}
@@ -593,6 +624,7 @@
 
 - mac: 00:26:99:50:8e:3e
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-55", "location": "155", "floor": "first"}
    - {"strength": "-64", "location": "outside251", "floor": "second"}
@@ -608,6 +640,7 @@
 
 - mac: f0:25:72:7d:94:92
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-29", "location": "402box9", "floor": "fourth"}
    - {"strength": "-42", "location": "outside401", "floor": "fourth"}
@@ -635,12 +668,14 @@
 
 - mac: e8:ed:f3:cd:29:e2
   network: eduroam
+  manufacturer: "UNKNOWN"
   measurements:
    - {"strength": "-89", "location": "bottomofstairs", "floor": "third"}
    - {"strength": "-89", "location": "outside359a", "floor": "third"}
 
 - mac: 0c:27:24:92:63:a2
   network: eduroam
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-74", "location": "165", "floor": "first"}
    - {"strength": "-85", "location": "outside257c", "floor": "second"}
@@ -649,6 +684,7 @@
 
 - mac: 3c:ce:73:49:52:12
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-48", "location": "254", "floor": "second"}
    - {"strength": "-51", "location": "157", "floor": "first"}
@@ -681,6 +717,7 @@
 
 - mac: 34:bd:c8:db:45:5e
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-67", "location": "outside251", "floor": "second"}
    - {"strength": "-72", "location": "152b", "floor": "first"}
@@ -695,6 +732,7 @@
 
 - mac: 34:bd:c8:db:45:5d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-67", "location": "outside251", "floor": "second"}
    - {"strength": "-72", "location": "152b", "floor": "first"}
@@ -708,18 +746,21 @@
 
 - mac: e8:04:62:76:de:91
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-88", "location": "404farcorner", "floor": "fourth"}
    - {"strength": "-88", "location": "404nearpillar", "floor": "fourth"}
 
 - mac: 0c:68:03:ae:1c:8e
   network: uchicago-secure
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-82", "location": "outside353", "floor": "third"}
    - {"strength": "-82", "location": "outside355a", "floor": "third"}
 
 - mac: 24:b6:57:f8:be:7e
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-61", "location": "center", "floor": "second"}
    - {"strength": "-62", "location": "255", "floor": "second"}
@@ -743,6 +784,7 @@
 
 - mac: 24:b6:57:f8:be:7d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-61", "location": "center", "floor": "second"}
    - {"strength": "-62", "location": "255", "floor": "second"}
@@ -763,6 +805,7 @@
 
 - mac: 08:cc:68:db:ea:1d
   network: eduroam
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-81", "location": "404farcorner", "floor": "fourth"}
    - {"strength": "-85", "location": "404nearpillar", "floor": "fourth"}
@@ -770,6 +813,7 @@
 
 - mac: f0:25:72:7d:db:d1
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-46", "location": "404farcorner", "floor": "fourth"}
    - {"strength": "-49", "location": "404nearpillar", "floor": "fourth"}
@@ -797,6 +841,7 @@
 
 - mac: f0:25:72:7d:db:d2
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-45", "location": "404farcorner", "floor": "fourth"}
    - {"strength": "-49", "location": "404nearpillar", "floor": "fourth"}
@@ -823,6 +868,7 @@
 
 - mac: 00:1e:f7:75:91:8d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-59", "location": "177farcorner", "floor": "first"}
    - {"strength": "-73", "location": "175farwall", "floor": "first"}
@@ -830,6 +876,7 @@
 
 - mac: 00:1e:f7:75:91:8e
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-59", "location": "177farcorner", "floor": "first"}
    - {"strength": "-73", "location": "175farwall", "floor": "first"}
@@ -837,22 +884,26 @@
 
 - mac: 2c:3f:38:c0:58:c2
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-87", "location": "outside353", "floor": "third"}
    - {"strength": "-87", "location": "outside355a", "floor": "third"}
 
 - mac: dc:a5:f4:ec:b7:b1
   network: uchicago-secure
+  manufacturer: "UNKNOWN"
   measurements:
    - {"strength": "-86", "location": "175farwall", "floor": "first"}
 
 - mac: 44:ad:d9:a1:51:b1
   network: uchicago-secure
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-86", "location": "outside355a", "floor": "third"}
 
 - mac: f0:25:72:3c:10:e2
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-45", "location": "outside257c", "floor": "second"}
    - {"strength": "-45", "location": "outside257f", "floor": "second"}
@@ -888,6 +939,7 @@
 
 - mac: f0:25:72:3c:10:e1
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-45", "location": "outside257c", "floor": "second"}
    - {"strength": "-45", "location": "outside257f", "floor": "second"}
@@ -929,6 +981,7 @@
 
 - mac: f0:25:72:7d:94:9e
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-49", "location": "402box9", "floor": "fourth"}
    - {"strength": "-50", "location": "402box7", "floor": "fourth"}
@@ -953,11 +1006,13 @@
 
 - mac: c4:0a:cb:df:48:b1
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-87", "location": "401rightside", "floor": "fourth"}
 
 - mac: f0:25:72:7d:94:9d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-49", "location": "402box9", "floor": "fourth"}
    - {"strength": "-50", "location": "402box7", "floor": "fourth"}
@@ -981,6 +1036,7 @@
 
 - mac: 00:26:99:50:8e:31
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-55", "location": "center", "floor": "first"}
    - {"strength": "-60", "location": "155", "floor": "first"}
@@ -1001,6 +1057,7 @@
 
 - mac: 00:26:99:50:8e:32
   network: eduroam
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-60", "location": "outside251", "floor": "second"}
    - {"strength": "-61", "location": "155", "floor": "first"}
@@ -1019,11 +1076,13 @@
 
 - mac: dc:a5:f4:ec:b7:b2
   network: eduroam
+  manufacturer: "UNKNOWN"
   measurements:
    - {"strength": "-87", "location": "175farwall", "floor": "first"}
 
 - mac: 34:bd:c8:db:45:51
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
   measurements:
    - {"strength": "-55", "location": "outside251", "floor": "second"}
    - {"strength": "-62", "location": "155", "floor": "first"}
@@ -1045,6 +1104,7 @@
 
 - mac: 3c:ce:73:57:1c:72
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-53", "location": "center", "floor": "first"}
    - {"strength": "-55", "location": "161b", "floor": "first"}
@@ -1068,6 +1128,7 @@
 
 - mac: 3c:ce:73:57:1c:71
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-53", "location": "center", "floor": "first"}
    - {"strength": "-55", "location": "161b", "floor": "first"}
@@ -1101,6 +1162,7 @@
 
 - mac: d8:24:bd:a0:0a:d2
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-60", "location": "outside251", "floor": "second"}
    - {"strength": "-61", "location": "155", "floor": "first"}
@@ -1118,6 +1180,7 @@
 
 - mac: d8:24:bd:a0:0a:d1
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-60", "location": "outside251", "floor": "second"}
    - {"strength": "-61", "location": "155", "floor": "first"}
@@ -1134,6 +1197,7 @@
 
 - mac: 0c:68:03:ae:1c:82
   network: eduroam
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-82", "location": "outside251", "floor": "second"}
    - {"strength": "-82", "location": "outside353", "floor": "third"}
@@ -1142,6 +1206,7 @@
 
 - mac: 2c:3f:38:c0:58:c1
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-78", "location": "center", "floor": "second"}
    - {"strength": "-87", "location": "outside353", "floor": "third"}
@@ -1149,17 +1214,20 @@
 
 - mac: 0c:68:03:ae:1c:8d
   network: eduroam
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-82", "location": "outside353", "floor": "third"}
    - {"strength": "-82", "location": "outside355a", "floor": "third"}
 
 - mac: e8:ed:f3:10:51:f1
   network: uchicago-secure
+  manufacturer: "UNKNOWN"
   measurements:
    - {"strength": "-88", "location": "outside162c", "floor": "first"}
 
 - mac: 0c:68:03:ae:1c:81
   network: uchicago-secure
+  manufacturer: "CISCO"
   measurements:
    - {"strength": "-74", "location": "outside355a", "floor": "third"}
    - {"strength": "-81", "location": "outside353", "floor": "third"}
@@ -1169,12 +1237,14 @@
 
 - mac: b8:62:1f:7c:97:5e
   network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-74", "location": "outside175", "floor": "first"}
    - {"strength": "-85", "location": "177farcorner", "floor": "first"}
 
 - mac: b8:62:1f:7c:97:5d
   network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
   measurements:
    - {"strength": "-74", "location": "outside175", "floor": "first"}
    - {"strength": "-85", "location": "177farcorner", "floor": "first"}
