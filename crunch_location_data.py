@@ -64,7 +64,7 @@ for router in routers:
 out.writerow(titles)
 
 for dr in datarows:
-  row = [dr.loc, dr.ulTime,dr.dlTime] + dr.pings
+  row = [dr.loc, dr.ulTime,dr.dlTime] + dr.pings[-10:]
   for router in routers:
     edu = dr.eduSignals[router] if router in dr.eduSignals else ""
     uc = dr.ucSecSignals[router] if router in dr.ucSecSignals else ""
