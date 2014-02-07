@@ -1,0 +1,1253 @@
+- mac: f0:25:72:7d:94:91
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-30", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-42", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-42", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-44", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-50", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-51", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-56", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-56", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-56", "location": "outside359a", "floor": "third"}
+   - {"strength": "-58", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-58", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-58", "location": "405", "floor": "fourth"}
+   - {"strength": "-62", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-62", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-67", "location": "outside360i", "floor": "third"}
+   - {"strength": "-69", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-69", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-69", "location": "outside360e", "floor": "third"}
+   - {"strength": "-74", "location": "outside360b", "floor": "third"}
+   - {"strength": "-75", "location": "257h", "floor": "second"}
+   - {"strength": "-75", "location": "outside257f", "floor": "second"}
+   - {"strength": "-75", "location": "outside259", "floor": "second"}
+   - {"strength": "-76", "location": "255", "floor": "second"}
+   - {"strength": "-77", "location": "outside355a", "floor": "third"}
+   - {"strength": "-79", "location": "outside163", "floor": "first"}
+   - {"strength": "-82", "location": "outside257c", "floor": "second"}
+   - {"strength": "-85", "location": "165b", "floor": "first"}
+   - {"strength": "-85", "location": "frontdoor", "floor": "first"}
+
+- mac: 00:1e:f7:75:91:82
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-47", "location": "177farcorner", "floor": "first"}
+   - {"strength": "-54", "location": "175farwall", "floor": "first"}
+   - {"strength": "-57", "location": "outside175", "floor": "first"}
+   - {"strength": "-77", "location": "outside160b", "floor": "first"}
+   - {"strength": "-85", "location": "255", "floor": "second"}
+   - {"strength": "-85", "location": "center", "floor": "second"}
+
+- mac: 00:26:cb:42:b9:51
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-77", "location": "center", "floor": "first"}
+   - {"strength": "-79", "location": "257h", "floor": "second"}
+   - {"strength": "-79", "location": "outside257f", "floor": "second"}
+   - {"strength": "-80", "location": "165", "floor": "first"}
+   - {"strength": "-80", "location": "165b", "floor": "first"}
+   - {"strength": "-80", "location": "outside163", "floor": "first"}
+
+- mac: 3c:ce:73:57:08:21
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-88", "location": "257h", "floor": "second"}
+
+- mac: 08:cc:68:db:ea:11
+  network: uchicago-secure
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-71", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-74", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-75", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-75", "location": "405", "floor": "fourth"}
+   - {"strength": "-77", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-78", "location": "outside175", "floor": "first"}
+   - {"strength": "-78", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-78", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-78", "location": "outside353", "floor": "third"}
+   - {"strength": "-79", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-79", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-79", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-81", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-81", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-82", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-85", "location": "155a", "floor": "first"}
+   - {"strength": "-85", "location": "outside160b", "floor": "first"}
+   - {"strength": "-85", "location": "outside360b", "floor": "third"}
+   - {"strength": "-86", "location": "255", "floor": "second"}
+   - {"strength": "-86", "location": "outside360e", "floor": "third"}
+   - {"strength": "-86", "location": "outside360i", "floor": "third"}
+   - {"strength": "-87", "location": "175farwall", "floor": "first"}
+   - {"strength": "-87", "location": "outside355a", "floor": "third"}
+   - {"strength": "-88", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-88", "location": "outside359a", "floor": "third"}
+
+- mac: 08:cc:68:db:ea:12
+  network: eduroam
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-75", "location": "405", "floor": "fourth"}
+   - {"strength": "-76", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-76", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-78", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-79", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-79", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-79", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-79", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-82", "location": "outside175", "floor": "first"}
+   - {"strength": "-82", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-82", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-82", "location": "outside360b", "floor": "third"}
+   - {"strength": "-84", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-84", "location": "outside360e", "floor": "third"}
+   - {"strength": "-84", "location": "outside360i", "floor": "third"}
+   - {"strength": "-85", "location": "175farwall", "floor": "first"}
+   - {"strength": "-87", "location": "outside160b", "floor": "first"}
+   - {"strength": "-88", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-88", "location": "outside359a", "floor": "third"}
+   - {"strength": "-89", "location": "outside251", "floor": "second"}
+   - {"strength": "-89", "location": "techstaffbowelsbehindstars", "floor": "second"}
+
+- mac: 00:1e:f7:75:91:81
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-48", "location": "177farcorner", "floor": "first"}
+   - {"strength": "-52", "location": "175farwall", "floor": "first"}
+   - {"strength": "-62", "location": "outside175", "floor": "first"}
+   - {"strength": "-77", "location": "outside160b", "floor": "first"}
+   - {"strength": "-86", "location": "255", "floor": "second"}
+   - {"strength": "-86", "location": "center", "floor": "second"}
+
+- mac: f0:25:72:3c:10:ee
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-55", "location": "outside257f", "floor": "second"}
+   - {"strength": "-56", "location": "257h", "floor": "second"}
+   - {"strength": "-56", "location": "outside257c", "floor": "second"}
+   - {"strength": "-58", "location": "outside163", "floor": "first"}
+   - {"strength": "-60", "location": "outside360e", "floor": "third"}
+   - {"strength": "-62", "location": "outside259", "floor": "second"}
+   - {"strength": "-63", "location": "165b", "floor": "first"}
+   - {"strength": "-65", "location": "outside360b", "floor": "third"}
+   - {"strength": "-66", "location": "outside360i", "floor": "third"}
+   - {"strength": "-67", "location": "outside162c", "floor": "first"}
+   - {"strength": "-68", "location": "255", "floor": "second"}
+   - {"strength": "-68", "location": "center", "floor": "second"}
+   - {"strength": "-72", "location": "165", "floor": "first"}
+   - {"strength": "-73", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-75", "location": "outside251", "floor": "second"}
+   - {"strength": "-76", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-76", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-78", "location": "center", "floor": "first"}
+   - {"strength": "-79", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside359a", "floor": "third"}
+   - {"strength": "-83", "location": "161b", "floor": "first"}
+   - {"strength": "-83", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-83", "location": "outside355a", "floor": "third"}
+   - {"strength": "-85", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-85", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-87", "location": "155", "floor": "first"}
+   - {"strength": "-87", "location": "402box7", "floor": "fourth"}
+
+- mac: f0:25:72:3c:10:ed
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-55", "location": "outside257f", "floor": "second"}
+   - {"strength": "-56", "location": "257h", "floor": "second"}
+   - {"strength": "-56", "location": "outside257c", "floor": "second"}
+   - {"strength": "-57", "location": "outside163", "floor": "first"}
+   - {"strength": "-60", "location": "outside360e", "floor": "third"}
+   - {"strength": "-62", "location": "outside259", "floor": "second"}
+   - {"strength": "-63", "location": "165b", "floor": "first"}
+   - {"strength": "-65", "location": "outside360b", "floor": "third"}
+   - {"strength": "-66", "location": "outside162c", "floor": "first"}
+   - {"strength": "-66", "location": "outside360i", "floor": "third"}
+   - {"strength": "-71", "location": "165", "floor": "first"}
+   - {"strength": "-72", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-75", "location": "outside251", "floor": "second"}
+   - {"strength": "-77", "location": "center", "floor": "first"}
+   - {"strength": "-78", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside359a", "floor": "third"}
+   - {"strength": "-82", "location": "161b", "floor": "first"}
+   - {"strength": "-84", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-85", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-88", "location": "155", "floor": "first"}
+
+- mac: 34:bd:c8:db:45:52
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-68", "location": "152b", "floor": "first"}
+   - {"strength": "-70", "location": "405", "floor": "fourth"}
+   - {"strength": "-70", "location": "outside251", "floor": "second"}
+   - {"strength": "-71", "location": "155", "floor": "first"}
+   - {"strength": "-72", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-72", "location": "outside355a", "floor": "third"}
+   - {"strength": "-77", "location": "outside353", "floor": "third"}
+   - {"strength": "-78", "location": "255", "floor": "second"}
+   - {"strength": "-78", "location": "center", "floor": "second"}
+   - {"strength": "-79", "location": "254", "floor": "second"}
+   - {"strength": "-82", "location": "155a", "floor": "first"}
+   - {"strength": "-83", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-84", "location": "outside257c", "floor": "second"}
+   - {"strength": "-84", "location": "outside259", "floor": "second"}
+   - {"strength": "-85", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-86", "location": "center", "floor": "first"}
+   - {"strength": "-87", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-88", "location": "157", "floor": "first"}
+   - {"strength": "-88", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-88", "location": "outside359a", "floor": "third"}
+
+- mac: 3c:ce:73:49:52:1d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-55", "location": "157", "floor": "first"}
+   - {"strength": "-63", "location": "254", "floor": "second"}
+   - {"strength": "-64", "location": "outside251", "floor": "second"}
+   - {"strength": "-68", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-70", "location": "255", "floor": "second"}
+   - {"strength": "-71", "location": "center", "floor": "second"}
+   - {"strength": "-71", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-75", "location": "outside257c", "floor": "second"}
+   - {"strength": "-75", "location": "outside259", "floor": "second"}
+   - {"strength": "-77", "location": "155", "floor": "first"}
+   - {"strength": "-77", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-78", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-78", "location": "outside359a", "floor": "third"}
+   - {"strength": "-80", "location": "155a", "floor": "first"}
+   - {"strength": "-81", "location": "405", "floor": "fourth"}
+   - {"strength": "-87", "location": "152b", "floor": "first"}
+
+- mac: 3c:ce:73:49:52:1e
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-55", "location": "157", "floor": "first"}
+   - {"strength": "-63", "location": "254", "floor": "second"}
+   - {"strength": "-64", "location": "outside251", "floor": "second"}
+   - {"strength": "-68", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-70", "location": "255", "floor": "second"}
+   - {"strength": "-71", "location": "center", "floor": "second"}
+   - {"strength": "-71", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-75", "location": "outside257c", "floor": "second"}
+   - {"strength": "-75", "location": "outside259", "floor": "second"}
+   - {"strength": "-76", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-77", "location": "155", "floor": "first"}
+   - {"strength": "-78", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-78", "location": "outside359a", "floor": "third"}
+   - {"strength": "-80", "location": "155a", "floor": "first"}
+   - {"strength": "-81", "location": "405", "floor": "fourth"}
+   - {"strength": "-82", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-84", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-84", "location": "outside353", "floor": "third"}
+   - {"strength": "-84", "location": "outside355a", "floor": "third"}
+   - {"strength": "-87", "location": "center", "floor": "first"}
+
+- mac: b8:62:1f:41:8e:e2
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-79", "location": "161b", "floor": "first"}
+   - {"strength": "-86", "location": "outside360b", "floor": "third"}
+   - {"strength": "-86", "location": "outside360e", "floor": "third"}
+   - {"strength": "-87", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-88", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-88", "location": "403box18", "floor": "fourth"}
+
+- mac: b8:62:1f:41:8e:e1
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-83", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-86", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-86", "location": "outside360b", "floor": "third"}
+   - {"strength": "-86", "location": "outside360e", "floor": "third"}
+   - {"strength": "-88", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-89", "location": "403box13", "floor": "fourth"}
+
+- mac: 00:26:99:4f:f1:f1
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-79", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-85", "location": "403middle", "floor": "fourth"}
+
+- mac: 24:b6:57:f8:be:72
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-45", "location": "center", "floor": "second"}
+   - {"strength": "-46", "location": "255", "floor": "second"}
+   - {"strength": "-51", "location": "outside259", "floor": "second"}
+   - {"strength": "-55", "location": "outside160b", "floor": "first"}
+   - {"strength": "-60", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-63", "location": "161b", "floor": "first"}
+   - {"strength": "-63", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-63", "location": "outside359a", "floor": "third"}
+   - {"strength": "-64", "location": "center", "floor": "first"}
+   - {"strength": "-64", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-64", "location": "outside251", "floor": "second"}
+   - {"strength": "-68", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-68", "location": "254", "floor": "second"}
+   - {"strength": "-69", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-70", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-71", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-73", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-75", "location": "157", "floor": "first"}
+   - {"strength": "-75", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-77", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-77", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-77", "location": "outside360e", "floor": "third"}
+   - {"strength": "-77", "location": "outside360i", "floor": "third"}
+   - {"strength": "-78", "location": "175farwall", "floor": "first"}
+   - {"strength": "-78", "location": "outside175", "floor": "first"}
+   - {"strength": "-79", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside257c", "floor": "second"}
+   - {"strength": "-79", "location": "outside257f", "floor": "second"}
+   - {"strength": "-81", "location": "405", "floor": "fourth"}
+   - {"strength": "-81", "location": "257h", "floor": "second"}
+   - {"strength": "-83", "location": "outside360b", "floor": "third"}
+   - {"strength": "-85", "location": "155", "floor": "first"}
+   - {"strength": "-86", "location": "outside353", "floor": "third"}
+   - {"strength": "-86", "location": "outside355a", "floor": "third"}
+   - {"strength": "-87", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-89", "location": "165b", "floor": "first"}
+
+- mac: 24:b6:57:f8:be:71
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-45", "location": "center", "floor": "second"}
+   - {"strength": "-46", "location": "255", "floor": "second"}
+   - {"strength": "-52", "location": "outside259", "floor": "second"}
+   - {"strength": "-56", "location": "outside160b", "floor": "first"}
+   - {"strength": "-61", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-63", "location": "161b", "floor": "first"}
+   - {"strength": "-63", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-63", "location": "outside359a", "floor": "third"}
+   - {"strength": "-64", "location": "center", "floor": "first"}
+   - {"strength": "-64", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-65", "location": "outside251", "floor": "second"}
+   - {"strength": "-68", "location": "254", "floor": "second"}
+   - {"strength": "-69", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-69", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-70", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-71", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-73", "location": "157", "floor": "first"}
+   - {"strength": "-73", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-76", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-76", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-76", "location": "outside257f", "floor": "second"}
+   - {"strength": "-76", "location": "outside360e", "floor": "third"}
+   - {"strength": "-77", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-78", "location": "outside175", "floor": "first"}
+   - {"strength": "-79", "location": "175farwall", "floor": "first"}
+   - {"strength": "-79", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside257c", "floor": "second"}
+   - {"strength": "-81", "location": "257h", "floor": "second"}
+   - {"strength": "-82", "location": "outside360b", "floor": "third"}
+   - {"strength": "-83", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-83", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-84", "location": "outside360i", "floor": "third"}
+   - {"strength": "-86", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-87", "location": "155a", "floor": "first"}
+   - {"strength": "-87", "location": "165b", "floor": "first"}
+   - {"strength": "-87", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-87", "location": "outside355a", "floor": "third"}
+   - {"strength": "-88", "location": "outside353", "floor": "third"}
+   - {"strength": "-89", "location": "outside162c", "floor": "first"}
+   - {"strength": "-89", "location": "outside163", "floor": "first"}
+
+- mac: f0:25:72:7d:db:dd
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-46", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-48", "location": "405", "floor": "fourth"}
+   - {"strength": "-52", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-57", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-63", "location": "outside355a", "floor": "third"}
+   - {"strength": "-66", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-67", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-68", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-70", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-73", "location": "outside353", "floor": "third"}
+   - {"strength": "-79", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-83", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-84", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-84", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-85", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-85", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-85", "location": "outside359a", "floor": "third"}
+
+- mac: 00:26:99:4f:f1:f2
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-84", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-89", "location": "405", "floor": "fourth"}
+
+- mac: f0:25:72:7d:db:de
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-46", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-48", "location": "405", "floor": "fourth"}
+   - {"strength": "-51", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-57", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-63", "location": "outside355a", "floor": "third"}
+   - {"strength": "-66", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-67", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-68", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-70", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-73", "location": "outside353", "floor": "third"}
+   - {"strength": "-80", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-82", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-83", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-84", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-84", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-86", "location": "402box7", "floor": "fourth"}
+
+- mac: e8:ed:f3:cd:29:e1
+  network: uchicago-secure
+  manufacturer: "UNKNOWN"
+  measurements:
+   - {"strength": "-84", "location": "outside355a", "floor": "third"}
+
+- mac: d8:24:bd:a0:0a:de
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-55", "location": "152b", "floor": "first"}
+   - {"strength": "-56", "location": "outside251", "floor": "second"}
+   - {"strength": "-58", "location": "155", "floor": "first"}
+   - {"strength": "-69", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-73", "location": "155a", "floor": "first"}
+   - {"strength": "-73", "location": "254", "floor": "second"}
+   - {"strength": "-73", "location": "outside355a", "floor": "third"}
+   - {"strength": "-76", "location": "405", "floor": "fourth"}
+   - {"strength": "-76", "location": "outside353", "floor": "third"}
+   - {"strength": "-79", "location": "255", "floor": "second"}
+   - {"strength": "-79", "location": "center", "floor": "second"}
+   - {"strength": "-85", "location": "outside257c", "floor": "second"}
+   - {"strength": "-85", "location": "outside259", "floor": "second"}
+
+- mac: d8:24:bd:a0:0a:dd
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-55", "location": "152b", "floor": "first"}
+   - {"strength": "-57", "location": "155", "floor": "first"}
+   - {"strength": "-57", "location": "outside251", "floor": "second"}
+   - {"strength": "-69", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-73", "location": "155a", "floor": "first"}
+   - {"strength": "-73", "location": "254", "floor": "second"}
+   - {"strength": "-73", "location": "outside355a", "floor": "third"}
+   - {"strength": "-76", "location": "405", "floor": "fourth"}
+   - {"strength": "-76", "location": "outside353", "floor": "third"}
+   - {"strength": "-84", "location": "outside257c", "floor": "second"}
+   - {"strength": "-84", "location": "outside259", "floor": "second"}
+
+- mac: 3c:ce:73:57:1c:7d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-64", "location": "outside257c", "floor": "second"}
+   - {"strength": "-64", "location": "outside259", "floor": "second"}
+   - {"strength": "-69", "location": "outside163", "floor": "first"}
+   - {"strength": "-70", "location": "165b", "floor": "first"}
+   - {"strength": "-70", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-71", "location": "165", "floor": "first"}
+   - {"strength": "-73", "location": "center", "floor": "first"}
+   - {"strength": "-77", "location": "257h", "floor": "second"}
+   - {"strength": "-79", "location": "161b", "floor": "first"}
+   - {"strength": "-81", "location": "outside257f", "floor": "second"}
+   - {"strength": "-84", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-84", "location": "outside359a", "floor": "third"}
+   - {"strength": "-86", "location": "155", "floor": "first"}
+
+- mac: 3c:ce:73:57:1c:7e
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-64", "location": "outside257c", "floor": "second"}
+   - {"strength": "-64", "location": "outside259", "floor": "second"}
+   - {"strength": "-70", "location": "165b", "floor": "first"}
+   - {"strength": "-70", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-70", "location": "outside163", "floor": "first"}
+   - {"strength": "-71", "location": "165", "floor": "first"}
+   - {"strength": "-73", "location": "center", "floor": "first"}
+   - {"strength": "-77", "location": "257h", "floor": "second"}
+   - {"strength": "-79", "location": "161b", "floor": "first"}
+   - {"strength": "-82", "location": "outside257f", "floor": "second"}
+   - {"strength": "-86", "location": "outside162c", "floor": "first"}
+   - {"strength": "-87", "location": "155", "floor": "first"}
+
+- mac: 00:26:cb:42:b9:52
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-76", "location": "165", "floor": "first"}
+   - {"strength": "-79", "location": "center", "floor": "first"}
+   - {"strength": "-82", "location": "257h", "floor": "second"}
+   - {"strength": "-82", "location": "outside257f", "floor": "second"}
+   - {"strength": "-82", "location": "outside360e", "floor": "third"}
+   - {"strength": "-82", "location": "outside360i", "floor": "third"}
+   - {"strength": "-84", "location": "165b", "floor": "first"}
+   - {"strength": "-84", "location": "outside163", "floor": "first"}
+
+- mac: b8:62:1f:7c:97:52
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-58", "location": "outside175", "floor": "first"}
+   - {"strength": "-69", "location": "175farwall", "floor": "first"}
+   - {"strength": "-70", "location": "255", "floor": "second"}
+   - {"strength": "-71", "location": "177farcorner", "floor": "first"}
+   - {"strength": "-71", "location": "center", "floor": "second"}
+   - {"strength": "-75", "location": "outside160b", "floor": "first"}
+   - {"strength": "-79", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-82", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-82", "location": "outside359a", "floor": "third"}
+   - {"strength": "-83", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-83", "location": "254", "floor": "second"}
+   - {"strength": "-84", "location": "161b", "floor": "first"}
+   - {"strength": "-84", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-85", "location": "center", "floor": "first"}
+   - {"strength": "-88", "location": "outside162c", "floor": "first"}
+   - {"strength": "-88", "location": "outside163", "floor": "first"}
+   - {"strength": "-90", "location": "outside251", "floor": "second"}
+   - {"strength": "-90", "location": "techstaffbowelsbehindstars", "floor": "second"}
+
+- mac: b8:62:1f:7c:97:51
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-58", "location": "outside175", "floor": "first"}
+   - {"strength": "-66", "location": "center", "floor": "second"}
+   - {"strength": "-67", "location": "175farwall", "floor": "first"}
+   - {"strength": "-69", "location": "outside251", "floor": "second"}
+   - {"strength": "-70", "location": "255", "floor": "second"}
+   - {"strength": "-71", "location": "177farcorner", "floor": "first"}
+   - {"strength": "-75", "location": "outside160b", "floor": "first"}
+   - {"strength": "-79", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-81", "location": "outside355a", "floor": "third"}
+   - {"strength": "-82", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-82", "location": "outside259", "floor": "second"}
+   - {"strength": "-83", "location": "outside162c", "floor": "first"}
+   - {"strength": "-83", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-83", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-83", "location": "254", "floor": "second"}
+   - {"strength": "-83", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-83", "location": "outside359a", "floor": "third"}
+   - {"strength": "-84", "location": "161b", "floor": "first"}
+   - {"strength": "-84", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-85", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-86", "location": "center", "floor": "first"}
+   - {"strength": "-86", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-87", "location": "155a", "floor": "first"}
+   - {"strength": "-87", "location": "outside257c", "floor": "second"}
+   - {"strength": "-87", "location": "outside257f", "floor": "second"}
+
+- mac: 3c:ce:73:49:52:11
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-48", "location": "254", "floor": "second"}
+   - {"strength": "-51", "location": "157", "floor": "first"}
+   - {"strength": "-51", "location": "center", "floor": "second"}
+   - {"strength": "-56", "location": "outside251", "floor": "second"}
+   - {"strength": "-61", "location": "255", "floor": "second"}
+   - {"strength": "-61", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-69", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-69", "location": "outside355a", "floor": "third"}
+   - {"strength": "-70", "location": "405", "floor": "fourth"}
+   - {"strength": "-70", "location": "outside257c", "floor": "second"}
+   - {"strength": "-70", "location": "outside259", "floor": "second"}
+   - {"strength": "-71", "location": "175farwall", "floor": "first"}
+   - {"strength": "-71", "location": "center", "floor": "first"}
+   - {"strength": "-71", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-72", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-72", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-72", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-74", "location": "155a", "floor": "first"}
+   - {"strength": "-75", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-76", "location": "155", "floor": "first"}
+   - {"strength": "-78", "location": "outside160b", "floor": "first"}
+   - {"strength": "-78", "location": "outside353", "floor": "third"}
+   - {"strength": "-80", "location": "outside175", "floor": "first"}
+   - {"strength": "-80", "location": "outside360b", "floor": "third"}
+   - {"strength": "-82", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-82", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-82", "location": "outside359a", "floor": "third"}
+   - {"strength": "-83", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-84", "location": "161b", "floor": "first"}
+   - {"strength": "-85", "location": "165b", "floor": "first"}
+   - {"strength": "-85", "location": "outside163", "floor": "first"}
+
+- mac: 0c:27:24:92:63:a1
+  network: eduroam
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-76", "location": "165", "floor": "first"}
+   - {"strength": "-83", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-87", "location": "outside360b", "floor": "third"}
+
+- mac: 00:26:99:50:8e:3d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-55", "location": "155", "floor": "first"}
+   - {"strength": "-64", "location": "outside251", "floor": "second"}
+   - {"strength": "-66", "location": "157", "floor": "first"}
+   - {"strength": "-71", "location": "152b", "floor": "first"}
+   - {"strength": "-71", "location": "center", "floor": "first"}
+   - {"strength": "-72", "location": "155a", "floor": "first"}
+   - {"strength": "-80", "location": "165b", "floor": "first"}
+   - {"strength": "-80", "location": "outside163", "floor": "first"}
+
+- mac: 00:26:99:50:8e:3e
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-55", "location": "155", "floor": "first"}
+   - {"strength": "-64", "location": "outside251", "floor": "second"}
+   - {"strength": "-67", "location": "157", "floor": "first"}
+   - {"strength": "-70", "location": "center", "floor": "first"}
+   - {"strength": "-72", "location": "152b", "floor": "first"}
+   - {"strength": "-72", "location": "155a", "floor": "first"}
+   - {"strength": "-79", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-83", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-84", "location": "outside160b", "floor": "first"}
+   - {"strength": "-86", "location": "outside353", "floor": "third"}
+   - {"strength": "-86", "location": "outside355a", "floor": "third"}
+
+- mac: f0:25:72:7d:94:92
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-29", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-42", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-45", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-50", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-51", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-56", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-56", "location": "outside359a", "floor": "third"}
+   - {"strength": "-57", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-58", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-62", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-62", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-67", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-67", "location": "outside360i", "floor": "third"}
+   - {"strength": "-68", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-69", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-69", "location": "outside360e", "floor": "third"}
+   - {"strength": "-73", "location": "outside360b", "floor": "third"}
+   - {"strength": "-74", "location": "405", "floor": "fourth"}
+   - {"strength": "-75", "location": "257h", "floor": "second"}
+   - {"strength": "-76", "location": "255", "floor": "second"}
+   - {"strength": "-78", "location": "outside257f", "floor": "second"}
+   - {"strength": "-79", "location": "outside163", "floor": "first"}
+   - {"strength": "-86", "location": "165b", "floor": "first"}
+
+- mac: e8:ed:f3:cd:29:e2
+  network: eduroam
+  manufacturer: "UNKNOWN"
+  measurements:
+   - {"strength": "-89", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-89", "location": "outside359a", "floor": "third"}
+
+- mac: 0c:27:24:92:63:a2
+  network: eduroam
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-74", "location": "165", "floor": "first"}
+   - {"strength": "-85", "location": "outside257c", "floor": "second"}
+   - {"strength": "-85", "location": "outside257f", "floor": "second"}
+   - {"strength": "-87", "location": "outside360i", "floor": "third"}
+
+- mac: 3c:ce:73:49:52:12
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-48", "location": "254", "floor": "second"}
+   - {"strength": "-51", "location": "157", "floor": "first"}
+   - {"strength": "-51", "location": "center", "floor": "second"}
+   - {"strength": "-55", "location": "outside251", "floor": "second"}
+   - {"strength": "-61", "location": "255", "floor": "second"}
+   - {"strength": "-61", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-68", "location": "405", "floor": "fourth"}
+   - {"strength": "-69", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-69", "location": "outside355a", "floor": "third"}
+   - {"strength": "-70", "location": "outside257c", "floor": "second"}
+   - {"strength": "-70", "location": "outside259", "floor": "second"}
+   - {"strength": "-71", "location": "175farwall", "floor": "first"}
+   - {"strength": "-71", "location": "center", "floor": "first"}
+   - {"strength": "-71", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-72", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-72", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-75", "location": "155", "floor": "first"}
+   - {"strength": "-75", "location": "155a", "floor": "first"}
+   - {"strength": "-75", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-77", "location": "outside353", "floor": "third"}
+   - {"strength": "-78", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-80", "location": "outside175", "floor": "first"}
+   - {"strength": "-80", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-80", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-82", "location": "outside359a", "floor": "third"}
+   - {"strength": "-82", "location": "outside360b", "floor": "third"}
+   - {"strength": "-84", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-85", "location": "161b", "floor": "first"}
+
+- mac: 34:bd:c8:db:45:5e
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-67", "location": "outside251", "floor": "second"}
+   - {"strength": "-72", "location": "152b", "floor": "first"}
+   - {"strength": "-74", "location": "155", "floor": "first"}
+   - {"strength": "-77", "location": "outside355a", "floor": "third"}
+   - {"strength": "-80", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-83", "location": "255", "floor": "second"}
+   - {"strength": "-83", "location": "center", "floor": "second"}
+   - {"strength": "-85", "location": "outside259", "floor": "second"}
+   - {"strength": "-87", "location": "155a", "floor": "first"}
+   - {"strength": "-88", "location": "outside353", "floor": "third"}
+
+- mac: 34:bd:c8:db:45:5d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-67", "location": "outside251", "floor": "second"}
+   - {"strength": "-72", "location": "152b", "floor": "first"}
+   - {"strength": "-74", "location": "155", "floor": "first"}
+   - {"strength": "-78", "location": "outside353", "floor": "third"}
+   - {"strength": "-78", "location": "outside355a", "floor": "third"}
+   - {"strength": "-79", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-80", "location": "254", "floor": "second"}
+   - {"strength": "-83", "location": "255", "floor": "second"}
+   - {"strength": "-83", "location": "center", "floor": "second"}
+
+- mac: e8:04:62:76:de:91
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-88", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-88", "location": "404nearpillar", "floor": "fourth"}
+
+- mac: 0c:68:03:ae:1c:8e
+  network: uchicago-secure
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-82", "location": "outside353", "floor": "third"}
+   - {"strength": "-82", "location": "outside355a", "floor": "third"}
+
+- mac: 24:b6:57:f8:be:7e
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-61", "location": "center", "floor": "second"}
+   - {"strength": "-62", "location": "255", "floor": "second"}
+   - {"strength": "-69", "location": "outside160b", "floor": "first"}
+   - {"strength": "-73", "location": "outside257c", "floor": "second"}
+   - {"strength": "-73", "location": "outside259", "floor": "second"}
+   - {"strength": "-76", "location": "center", "floor": "first"}
+   - {"strength": "-78", "location": "outside251", "floor": "second"}
+   - {"strength": "-78", "location": "outside355a", "floor": "third"}
+   - {"strength": "-82", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-83", "location": "161b", "floor": "first"}
+   - {"strength": "-84", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-84", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-85", "location": "157", "floor": "first"}
+   - {"strength": "-85", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-85", "location": "254", "floor": "second"}
+   - {"strength": "-86", "location": "outside359a", "floor": "third"}
+   - {"strength": "-86", "location": "outside360b", "floor": "third"}
+   - {"strength": "-87", "location": "403box18", "floor": "fourth"}
+
+- mac: 24:b6:57:f8:be:7d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-61", "location": "center", "floor": "second"}
+   - {"strength": "-62", "location": "255", "floor": "second"}
+   - {"strength": "-69", "location": "outside160b", "floor": "first"}
+   - {"strength": "-73", "location": "outside257c", "floor": "second"}
+   - {"strength": "-73", "location": "outside259", "floor": "second"}
+   - {"strength": "-76", "location": "center", "floor": "first"}
+   - {"strength": "-82", "location": "161b", "floor": "first"}
+   - {"strength": "-82", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-82", "location": "outside359a", "floor": "third"}
+   - {"strength": "-84", "location": "157", "floor": "first"}
+   - {"strength": "-84", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-84", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-84", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-85", "location": "254", "floor": "second"}
+
+- mac: 08:cc:68:db:ea:1d
+  network: eduroam
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-81", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-85", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-85", "location": "405", "floor": "fourth"}
+
+- mac: f0:25:72:7d:db:d1
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-46", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-49", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-50", "location": "405", "floor": "fourth"}
+   - {"strength": "-59", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-62", "location": "outside355a", "floor": "third"}
+   - {"strength": "-66", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-68", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-68", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-69", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-71", "location": "outside353", "floor": "third"}
+   - {"strength": "-74", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-74", "location": "outside360e", "floor": "third"}
+   - {"strength": "-74", "location": "outside360i", "floor": "third"}
+   - {"strength": "-75", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-75", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-75", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-77", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-77", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-77", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-83", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-83", "location": "outside359a", "floor": "third"}
+   - {"strength": "-83", "location": "outside360b", "floor": "third"}
+   - {"strength": "-87", "location": "255", "floor": "second"}
+
+- mac: f0:25:72:7d:db:d2
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-45", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-49", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-50", "location": "405", "floor": "fourth"}
+   - {"strength": "-59", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-59", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-62", "location": "outside355a", "floor": "third"}
+   - {"strength": "-64", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-68", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-69", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-69", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-71", "location": "outside353", "floor": "third"}
+   - {"strength": "-74", "location": "outside360e", "floor": "third"}
+   - {"strength": "-74", "location": "outside360i", "floor": "third"}
+   - {"strength": "-75", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-75", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-75", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-75", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-77", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-82", "location": "157", "floor": "first"}
+   - {"strength": "-83", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-83", "location": "outside359a", "floor": "third"}
+   - {"strength": "-83", "location": "outside360b", "floor": "third"}
+
+- mac: 00:1e:f7:75:91:8d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-59", "location": "177farcorner", "floor": "first"}
+   - {"strength": "-73", "location": "175farwall", "floor": "first"}
+   - {"strength": "-78", "location": "outside175", "floor": "first"}
+
+- mac: 00:1e:f7:75:91:8e
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-59", "location": "177farcorner", "floor": "first"}
+   - {"strength": "-73", "location": "175farwall", "floor": "first"}
+   - {"strength": "-78", "location": "outside175", "floor": "first"}
+
+- mac: 2c:3f:38:c0:58:c2
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-87", "location": "outside353", "floor": "third"}
+   - {"strength": "-87", "location": "outside355a", "floor": "third"}
+
+- mac: dc:a5:f4:ec:b7:b1
+  network: uchicago-secure
+  manufacturer: "UNKNOWN"
+  measurements:
+   - {"strength": "-86", "location": "175farwall", "floor": "first"}
+
+- mac: 44:ad:d9:a1:51:b1
+  network: uchicago-secure
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-86", "location": "outside355a", "floor": "third"}
+
+- mac: f0:25:72:3c:10:e2
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-45", "location": "outside257c", "floor": "second"}
+   - {"strength": "-45", "location": "outside257f", "floor": "second"}
+   - {"strength": "-45", "location": "outside259", "floor": "second"}
+   - {"strength": "-46", "location": "outside163", "floor": "first"}
+   - {"strength": "-50", "location": "center", "floor": "second"}
+   - {"strength": "-51", "location": "257h", "floor": "second"}
+   - {"strength": "-51", "location": "outside360i", "floor": "third"}
+   - {"strength": "-52", "location": "outside360e", "floor": "third"}
+   - {"strength": "-54", "location": "outside360b", "floor": "third"}
+   - {"strength": "-57", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-59", "location": "165b", "floor": "first"}
+   - {"strength": "-61", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-62", "location": "165", "floor": "first"}
+   - {"strength": "-62", "location": "outside359a", "floor": "third"}
+   - {"strength": "-66", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-69", "location": "161b", "floor": "first"}
+   - {"strength": "-69", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-72", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-74", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-75", "location": "255", "floor": "second"}
+   - {"strength": "-78", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-79", "location": "155", "floor": "first"}
+   - {"strength": "-80", "location": "254", "floor": "second"}
+   - {"strength": "-81", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-81", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-82", "location": "center", "floor": "first"}
+   - {"strength": "-82", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-82", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-83", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-85", "location": "405", "floor": "fourth"}
+
+- mac: f0:25:72:3c:10:e1
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-45", "location": "outside257c", "floor": "second"}
+   - {"strength": "-45", "location": "outside257f", "floor": "second"}
+   - {"strength": "-45", "location": "outside259", "floor": "second"}
+   - {"strength": "-46", "location": "outside163", "floor": "first"}
+   - {"strength": "-50", "location": "257h", "floor": "second"}
+   - {"strength": "-50", "location": "center", "floor": "second"}
+   - {"strength": "-51", "location": "outside162c", "floor": "first"}
+   - {"strength": "-51", "location": "outside360i", "floor": "third"}
+   - {"strength": "-52", "location": "outside360e", "floor": "third"}
+   - {"strength": "-53", "location": "outside360b", "floor": "third"}
+   - {"strength": "-57", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-59", "location": "165b", "floor": "first"}
+   - {"strength": "-59", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-61", "location": "165", "floor": "first"}
+   - {"strength": "-61", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-63", "location": "outside359a", "floor": "third"}
+   - {"strength": "-66", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-68", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-69", "location": "161b", "floor": "first"}
+   - {"strength": "-69", "location": "outside355a", "floor": "third"}
+   - {"strength": "-72", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-73", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-74", "location": "255", "floor": "second"}
+   - {"strength": "-74", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-76", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-77", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-79", "location": "254", "floor": "second"}
+   - {"strength": "-80", "location": "155", "floor": "first"}
+   - {"strength": "-80", "location": "center", "floor": "first"}
+   - {"strength": "-80", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-81", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-82", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-82", "location": "405", "floor": "fourth"}
+   - {"strength": "-83", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-83", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-84", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-86", "location": "outside353", "floor": "third"}
+
+- mac: f0:25:72:7d:94:9e
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-49", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-50", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-53", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-59", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-66", "location": "outside359a", "floor": "third"}
+   - {"strength": "-66", "location": "outside360b", "floor": "third"}
+   - {"strength": "-68", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-70", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-72", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-72", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-73", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-74", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-76", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-76", "location": "405", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside360i", "floor": "third"}
+   - {"strength": "-81", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-86", "location": "outside360e", "floor": "third"}
+   - {"strength": "-87", "location": "outside257c", "floor": "second"}
+   - {"strength": "-87", "location": "outside259", "floor": "second"}
+   - {"strength": "-87", "location": "outside355a", "floor": "third"}
+
+- mac: c4:0a:cb:df:48:b1
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-87", "location": "401rightside", "floor": "fourth"}
+
+- mac: f0:25:72:7d:94:9d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-49", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-50", "location": "402box7", "floor": "fourth"}
+   - {"strength": "-54", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-59", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-66", "location": "outside359a", "floor": "third"}
+   - {"strength": "-66", "location": "outside360b", "floor": "third"}
+   - {"strength": "-68", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-70", "location": "403middle", "floor": "fourth"}
+   - {"strength": "-72", "location": "403box13", "floor": "fourth"}
+   - {"strength": "-73", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-74", "location": "403box10", "floor": "fourth"}
+   - {"strength": "-76", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-76", "location": "405", "floor": "fourth"}
+   - {"strength": "-78", "location": "outside360i", "floor": "third"}
+   - {"strength": "-81", "location": "403box18", "floor": "fourth"}
+   - {"strength": "-81", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-86", "location": "outside257c", "floor": "second"}
+   - {"strength": "-86", "location": "outside259", "floor": "second"}
+   - {"strength": "-86", "location": "outside360e", "floor": "third"}
+
+- mac: 00:26:99:50:8e:31
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-55", "location": "center", "floor": "first"}
+   - {"strength": "-60", "location": "155", "floor": "first"}
+   - {"strength": "-62", "location": "outside251", "floor": "second"}
+   - {"strength": "-63", "location": "157", "floor": "first"}
+   - {"strength": "-68", "location": "155a", "floor": "first"}
+   - {"strength": "-69", "location": "152b", "floor": "first"}
+   - {"strength": "-71", "location": "254", "floor": "second"}
+   - {"strength": "-76", "location": "255", "floor": "second"}
+   - {"strength": "-76", "location": "center", "floor": "second"}
+   - {"strength": "-77", "location": "outside355a", "floor": "third"}
+   - {"strength": "-78", "location": "outside160b", "floor": "first"}
+   - {"strength": "-78", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-78", "location": "outside353", "floor": "third"}
+   - {"strength": "-82", "location": "175farwall", "floor": "first"}
+   - {"strength": "-82", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-84", "location": "outside259", "floor": "second"}
+
+- mac: 00:26:99:50:8e:32
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-60", "location": "outside251", "floor": "second"}
+   - {"strength": "-61", "location": "155", "floor": "first"}
+   - {"strength": "-67", "location": "152b", "floor": "first"}
+   - {"strength": "-67", "location": "155a", "floor": "first"}
+   - {"strength": "-68", "location": "center", "floor": "first"}
+   - {"strength": "-74", "location": "157", "floor": "first"}
+   - {"strength": "-76", "location": "255", "floor": "second"}
+   - {"strength": "-76", "location": "center", "floor": "second"}
+   - {"strength": "-77", "location": "254", "floor": "second"}
+   - {"strength": "-80", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-81", "location": "161b", "floor": "first"}
+   - {"strength": "-82", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-82", "location": "outside353", "floor": "third"}
+   - {"strength": "-83", "location": "outside160b", "floor": "first"}
+
+- mac: dc:a5:f4:ec:b7:b2
+  network: eduroam
+  manufacturer: "UNKNOWN"
+  measurements:
+   - {"strength": "-87", "location": "175farwall", "floor": "first"}
+
+- mac: 34:bd:c8:db:45:51
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS"
+  measurements:
+   - {"strength": "-55", "location": "outside251", "floor": "second"}
+   - {"strength": "-62", "location": "155", "floor": "first"}
+   - {"strength": "-70", "location": "center", "floor": "second"}
+   - {"strength": "-72", "location": "152b", "floor": "first"}
+   - {"strength": "-73", "location": "outside353", "floor": "third"}
+   - {"strength": "-73", "location": "outside355a", "floor": "third"}
+   - {"strength": "-75", "location": "405", "floor": "fourth"}
+   - {"strength": "-75", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-77", "location": "254", "floor": "second"}
+   - {"strength": "-78", "location": "outside257c", "floor": "second"}
+   - {"strength": "-78", "location": "outside259", "floor": "second"}
+   - {"strength": "-82", "location": "404farcorner", "floor": "fourth"}
+   - {"strength": "-83", "location": "155a", "floor": "first"}
+   - {"strength": "-86", "location": "center", "floor": "first"}
+   - {"strength": "-86", "location": "404nearpillar", "floor": "fourth"}
+   - {"strength": "-88", "location": "157", "floor": "first"}
+   - {"strength": "-89", "location": "frontdoor", "floor": "first"}
+
+- mac: 3c:ce:73:57:1c:72
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-53", "location": "center", "floor": "first"}
+   - {"strength": "-55", "location": "161b", "floor": "first"}
+   - {"strength": "-59", "location": "165b", "floor": "first"}
+   - {"strength": "-59", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-63", "location": "165", "floor": "first"}
+   - {"strength": "-64", "location": "257h", "floor": "second"}
+   - {"strength": "-68", "location": "outside257f", "floor": "second"}
+   - {"strength": "-69", "location": "outside162c", "floor": "first"}
+   - {"strength": "-69", "location": "outside163", "floor": "first"}
+   - {"strength": "-72", "location": "outside160b", "floor": "first"}
+   - {"strength": "-74", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-75", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-76", "location": "outside257c", "floor": "second"}
+   - {"strength": "-76", "location": "outside359a", "floor": "third"}
+   - {"strength": "-79", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside360i", "floor": "third"}
+   - {"strength": "-80", "location": "outside360e", "floor": "third"}
+   - {"strength": "-83", "location": "outside360b", "floor": "third"}
+
+- mac: 3c:ce:73:57:1c:71
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-53", "location": "center", "floor": "first"}
+   - {"strength": "-55", "location": "161b", "floor": "first"}
+   - {"strength": "-57", "location": "outside259", "floor": "second"}
+   - {"strength": "-59", "location": "165b", "floor": "first"}
+   - {"strength": "-59", "location": "frontdoor", "floor": "first"}
+   - {"strength": "-63", "location": "165", "floor": "first"}
+   - {"strength": "-65", "location": "257h", "floor": "second"}
+   - {"strength": "-67", "location": "center", "floor": "second"}
+   - {"strength": "-67", "location": "outside257f", "floor": "second"}
+   - {"strength": "-69", "location": "outside162c", "floor": "first"}
+   - {"strength": "-69", "location": "outside163", "floor": "first"}
+   - {"strength": "-72", "location": "outside160b", "floor": "first"}
+   - {"strength": "-73", "location": "outside257c", "floor": "second"}
+   - {"strength": "-74", "location": "bottomofstairs", "floor": "third"}
+   - {"strength": "-75", "location": "402box9", "floor": "fourth"}
+   - {"strength": "-77", "location": "outside359a", "floor": "third"}
+   - {"strength": "-78", "location": "outside355a", "floor": "third"}
+   - {"strength": "-79", "location": "155", "floor": "first"}
+   - {"strength": "-79", "location": "402box15", "floor": "fourth"}
+   - {"strength": "-79", "location": "outside360e", "floor": "third"}
+   - {"strength": "-79", "location": "outside360i", "floor": "third"}
+   - {"strength": "-80", "location": "outside251", "floor": "second"}
+   - {"strength": "-81", "location": "157", "floor": "first"}
+   - {"strength": "-81", "location": "255", "floor": "second"}
+   - {"strength": "-83", "location": "401rightside", "floor": "fourth"}
+   - {"strength": "-83", "location": "402box1", "floor": "fourth"}
+   - {"strength": "-83", "location": "403box6", "floor": "fourth"}
+   - {"strength": "-83", "location": "outside401", "floor": "fourth"}
+   - {"strength": "-84", "location": "outside360b", "floor": "third"}
+
+- mac: d8:24:bd:a0:0a:d2
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-60", "location": "outside251", "floor": "second"}
+   - {"strength": "-61", "location": "155", "floor": "first"}
+   - {"strength": "-68", "location": "152b", "floor": "first"}
+   - {"strength": "-71", "location": "outside355a", "floor": "third"}
+   - {"strength": "-73", "location": "outside353", "floor": "third"}
+   - {"strength": "-74", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-75", "location": "255", "floor": "second"}
+   - {"strength": "-75", "location": "center", "floor": "second"}
+   - {"strength": "-78", "location": "254", "floor": "second"}
+   - {"strength": "-80", "location": "outside257c", "floor": "second"}
+   - {"strength": "-80", "location": "outside259", "floor": "second"}
+   - {"strength": "-82", "location": "157", "floor": "first"}
+   - {"strength": "-87", "location": "center", "floor": "first"}
+
+- mac: d8:24:bd:a0:0a:d1
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-60", "location": "outside251", "floor": "second"}
+   - {"strength": "-61", "location": "155", "floor": "first"}
+   - {"strength": "-68", "location": "152b", "floor": "first"}
+   - {"strength": "-70", "location": "center", "floor": "second"}
+   - {"strength": "-70", "location": "outside355a", "floor": "third"}
+   - {"strength": "-73", "location": "outside353", "floor": "third"}
+   - {"strength": "-74", "location": "techstaffbowelsbehindstars", "floor": "second"}
+   - {"strength": "-75", "location": "155a", "floor": "first"}
+   - {"strength": "-78", "location": "254", "floor": "second"}
+   - {"strength": "-80", "location": "outside257c", "floor": "second"}
+   - {"strength": "-80", "location": "outside259", "floor": "second"}
+   - {"strength": "-85", "location": "157", "floor": "first"}
+
+- mac: 0c:68:03:ae:1c:82
+  network: eduroam
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-82", "location": "outside251", "floor": "second"}
+   - {"strength": "-82", "location": "outside353", "floor": "third"}
+   - {"strength": "-83", "location": "outside355a", "floor": "third"}
+   - {"strength": "-88", "location": "techstaffbowelsbehindstars", "floor": "second"}
+
+- mac: 2c:3f:38:c0:58:c1
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-78", "location": "center", "floor": "second"}
+   - {"strength": "-87", "location": "outside353", "floor": "third"}
+   - {"strength": "-88", "location": "outside355a", "floor": "third"}
+
+- mac: 0c:68:03:ae:1c:8d
+  network: eduroam
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-82", "location": "outside353", "floor": "third"}
+   - {"strength": "-82", "location": "outside355a", "floor": "third"}
+
+- mac: e8:ed:f3:10:51:f1
+  network: uchicago-secure
+  manufacturer: "UNKNOWN"
+  measurements:
+   - {"strength": "-88", "location": "outside162c", "floor": "first"}
+
+- mac: 0c:68:03:ae:1c:81
+  network: uchicago-secure
+  manufacturer: "CISCO"
+  measurements:
+   - {"strength": "-74", "location": "outside355a", "floor": "third"}
+   - {"strength": "-81", "location": "outside353", "floor": "third"}
+   - {"strength": "-82", "location": "outside360b", "floor": "third"}
+   - {"strength": "-88", "location": "outside251", "floor": "second"}
+   - {"strength": "-88", "location": "techstaffbowelsbehindstars", "floor": "second"}
+
+- mac: b8:62:1f:7c:97:5e
+  network: uchicago-secure
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-74", "location": "outside175", "floor": "first"}
+   - {"strength": "-85", "location": "177farcorner", "floor": "first"}
+
+- mac: b8:62:1f:7c:97:5d
+  network: eduroam
+  manufacturer: "CISCO SYSTEMS, INC."
+  measurements:
+   - {"strength": "-74", "location": "outside175", "floor": "first"}
+   - {"strength": "-85", "location": "177farcorner", "floor": "first"}
+   - {"strength": "-87", "location": "255", "floor": "second"}
+   - {"strength": "-87", "location": "center", "floor": "second"}
+
